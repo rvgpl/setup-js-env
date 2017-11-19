@@ -8,6 +8,9 @@
     "compat",
     "flowtype"
   ],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "compat/compat": "warn"
   }
