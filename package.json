@@ -4,8 +4,14 @@
   "description": "Setting up a javascript environment with all fanciness.",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ravigopal Kesari",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
