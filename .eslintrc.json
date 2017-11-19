@@ -1,6 +1,13 @@
 {
-  "extends" : "airbnb",
-  "plugins": ["compat"],
+  "parser": "babel-eslint",
+  "extends" : [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "compat",
+    "flowtype"
+  ],
   "rules": {
     "compat/compat": "warn"
   }
