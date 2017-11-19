@@ -1,2 +1,5 @@
-const str = "Human";
-console.log(`Hello ${str}`);
+import Dog from "./Dog";
+
+const Victor = new Dog('Victor');
+
+console.log(Victor.bark());
